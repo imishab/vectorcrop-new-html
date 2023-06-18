@@ -1,0 +1,444 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <title>VectorCrop - Software Development Agency.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta property="og:title" content="VectorCrop - Software Development Agency.">
+    <meta property="og:description"
+        content="inspire the next || Meet your future goals with VectorCrop. || We will deliver you marketing and technology solutions in the best way.">
+    <meta name="keywords" content="Software Development Agency" />
+    <meta name="author" content="VectorCrop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Work%20Sans:400,500,700,900%7CPT%20Serif%7CRoboto:700'
+        rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href='assets/style.css' />
+
+    <!--[if lt IE 9]>
+                <script src="assets/js/html5shiv.js"></script>            
+                <script src="assets/js/respond.min.js"></script>                   
+        <![endif]-->
+</head>
+<style>
+    .header-holder {
+        z-index: 99 !important;
+        background-color: #000000;
+        width: 100% !important;
+        top: 0;
+        margin-top: -3px;
+        position: fixed;
+    }
+
+    .header-logo img {
+        width: 45px;
+        margin-top: 5px;
+        height: 100%;
+    }
+
+    .menu-holder {
+        float: right;
+        max-width: 80%;
+        margin-top: 10px;
+    }
+
+    body .site-wrapper .sm-clean a {
+        cursor: pointer;
+        color: #939393;
+        transition: color .3s ease;
+    }
+
+    body .sm-clean a:hover,
+    body .sm-clean li a.current {
+        color: #ffffff;
+    }
+
+    .menu-wrapper {
+        max-width: 98%;
+        width: 1170px;
+        min-height: 93px;
+    }
+
+    .header-holder {
+        z-index: 99 !important;
+        background-color: #000000;
+        width: 100% !important;
+        top: 0;
+        margin-top: -3px;
+    }
+
+    h1.page-title {
+        font-size: 35px;
+        line-height: 60px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 60px;
+        margin-top: 65px;
+    }
+
+    h1.page-title2 {
+        font-size: 35px;
+        line-height: 60px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 42px;
+        margin-top: -114px;
+    }
+
+
+
+    @media screen and (max-width: 925px) {
+        .toggle-holder {
+            display: flex;
+            margin-right: 20px;
+
+        }
+
+        h1.page-title {
+            font-size: 23px;
+            line-height: 40px;
+            margin-bottom: -51px;
+            padding-top: 0;
+            margin-top: 103px;
+        }
+
+        h1.page-title2 {
+            font-size: 23px;
+            line-height: 60px;
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 42px;
+            margin-top: -1px;
+        }
+
+        .menu-holder {
+            position: fixed;
+            text-align: center;
+            height: 100%;
+            background-color: #000000;
+            right: -100%;
+            top: 0;
+            transition: right .3s ease;
+            width: 100%;
+            overflow: auto;
+            max-width: 100%;
+            z-index: 99;
+        }
+
+        .toggle-holder.on {
+            background-color: #ffffff21;
+            padding: 10px;
+            border-radius: 90%;
+            width: 23px;
+            height: 23px;
+        }
+
+        .header-logo img {
+            width: 45px;
+            margin-top: 5px;
+            height: 100%;
+            margin-left: 20px;
+        }
+
+    }
+
+    #toggle div {
+        height: 3px;
+        margin-bottom: 6px;
+        background-color: #fff;
+        width: 22px;
+        transition: all .3s ease;
+        transition-delay: .1s;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .fade-in {
+        opacity: 0;
+        /* make things invisible upon start */
+        animation: fadeIn ease-in 1;
+        animation-fill-mode: forwards;
+        animation-duration: 1.5s;
+    }
+
+    .section {
+        background-image: url('assets/img/bg2.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        text-align: left;
+        padding: 100px 0;
+    }
+
+    .section-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        color: #fff;
+    }
+
+    @media (max-width: 768px) {
+        .section-content {
+            padding: 0 10px;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="site-wrapper">
+        <div class="doc-loader"></div>
+
+        <header class="header-holder">
+            <div class="menu-wrapper center-relative relative">
+
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="assets/img/vectorcrop logo whte.png" alt="Kapena">
+                    </a>
+                </div>
+
+                <div class="toggle-holder">
+                    <div id="toggle">
+                        <div class="first-menu-line"></div>
+                        <div class="second-menu-line"></div>
+                        <div class="third-menu-line"></div>
+                    </div>
+                </div>
+
+                <div class="menu-holder">
+                    <nav id="header-main-menu">
+                        <ul class="main-menu sm sm-clean">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="service.html">Service</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="team.html">Team</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </header>
+
+
+
+        <div id="content" class="site-content">
+            <div class="section-wrapper">
+                <h1 class="fade-in entry-title page-title block content-1170 center-relative">
+                    Innovation Flourishes in the </h1>
+                <h1 class="fade-in entry-title page-title2 block content-1170 center-relative">VectorCrop Open Source
+                    Community.
+                </h1>
+
+                <img class="title-logo center-relative block" src="assets/images/divider_01.png" alt="">
+
+                <section class="section">
+                    <div class="section-content">
+                        <h1>Meet your future goals with VectorCrop.
+                        </h1>
+                        <p>We will deliver you marketing and technology solutions in the best way.
+
+                        </p>
+                    </div>
+                </section>
+
+                <div class="full-page-width center-relative">
+                    <div id="portfolio-wrapper">
+                        <ul class="grid" id="portfolio-grid">
+                            <li class="grid-sizer"></li>
+
+                            <li class="grid-item element-item p_two_third">
+                                <a class="item-link" href="portfolio-1.html">
+                                    <img src="assets/images/portfolio_item_01.jpg" alt="" />
+
+                                    <div class="portfolio-text-holder">
+                                        <p class="portfolio-title">
+                                            Monochromatic
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            BRANDING
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="grid-item element-item p_one_third">
+                                <a class="item-link" href="portfolio-2.html">
+                                    <img src="assets/images/portfolio_item_02.jpg" alt="" />
+                                    <div class="portfolio-text-holder">
+                                        <p class="portfolio-title">
+                                            Nature Logo
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            IDENTITY
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="grid-item element-item p_one_third">
+                                <a class="item-link" href="portfolio-3.html">
+                                    <img src="assets/images/portfolio_item_03.jpg" alt="" />
+                                    <div class="portfolio-text-holder">
+                                        <p class="portfolio-title">
+                                            Smooth Stone
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            FONT
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="grid-item element-item p_one_third">
+                                <a class="item-link" href="portfolio-4.html">
+                                    <img src="assets/images/portfolio_item_04.jpg" alt="" />
+                                    <div class="portfolio-text-holder">
+                                        <p class="portfolio-title">
+                                            Noise Five
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            DESIGN
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="grid-item element-item p_one_third">
+                                <a class="item-link" href="portfolio-5.html">
+                                    <img src="assets/images/portfolio_item_05.jpg" alt="" />
+                                    <div class="portfolio-text-holder">
+                                        <p class="portfolio-title">
+                                            Plate Mockup
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            PHOTOSHOP
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="grid-item element-item p_one_third">
+                                <a class="item-link" href="portfolio-6.html">
+                                    <img src="assets/images/portfolio_item_06.jpg" alt="" />
+                                    <div class="portfolio-text-holder">
+                                        <p class="portfolio-title">
+                                            Beard
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            UX/UI
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="grid-item element-item p_two_third">
+                                <a class="item-link" href="portfolio-7.html">
+                                    <img src="assets/images/portfolio_item_07.jpg" alt="" />
+                                    <div class="portfolio-text-holder">
+                                        <p class="portfolio-title">
+                                            Wooden Stamp
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            IDENTITY
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="block center-relative center-text more-posts-portfolio-holder">
+                        <p class="more-posts-portfolio">LOAD MORE</p>
+                    </div>
+                </div>
+
+                <div class="content-1170 center-relative top-70">
+                    <div class="one_half">
+                        <strong>The story</strong>
+                        <br>
+                        With a warning label this big, you know they gotta be fun. Bring me the forms I need to fill out
+                        to have her taken away.
+                        I decline the title of iron cook and accept the lesser title of zinc saucier.
+                    </div>
+
+                    <div class="one_half last">
+                        <strong>Dreams</strong>
+                        <br>
+                        You probably haven’t heard of them before they sold out scenester literally readymade. Trust
+                        fund Thundercats flexitarian,
+                        aesthetic Tumblr banjo freegan semiotics biodiesel master cleanse.
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content center-relative">
+
+                <img class="footer-logo" src="assets/images/divider_01.png" alt="Kapena">
+
+                <div class="copyright-holder content-1170 center-relative">
+                    © 2018. Made by <a href="https://cocobasic.com/">Coco+Basic.</a>
+                </div>
+
+                <div class="social-holder content-1170 center-relative">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-youtube-play"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-pinterest-p"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-behance"></span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!--Load JavaScript-->
+    <script src="assets/js/jquery.js"></script>
+    <script src='assets/js/jquery.smartmenus.min.js'></script>
+    <script src='assets/js/imagesloaded.pkgd.js'></script>
+    <script src='assets/js/isotope.pkgd.js'></script>
+    <script src='assets/js/jquery.fitvids.js'></script>
+    <script src='assets/js/swiper.min.js'></script>
+    <script src='assets/js/main.js'></script>
+</body>
+
+</html>
