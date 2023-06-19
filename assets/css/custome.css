@@ -50,7 +50,7 @@ h1.page-title {
     font-weight: 400;
     text-align: center;
     margin-bottom: 60px;
-    margin-top: 65px;
+    margin-top: 150px;
 }
 
 h1.page-title2 {
@@ -82,7 +82,7 @@ h1.page-title2 {
     h1.page-title2 {
         font-size: 30px;
         line-height: 60px;
-        font-weight: 500;
+        font-weight: 300;
         line-height: 1.1;
         text-align: center;
         margin-bottom: 42px;
@@ -168,12 +168,23 @@ h1.page-title2 {
     padding: 100px 0;
 }
 
+.section2 {
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
 .section-content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     color: #fff;
 }
+
+
 
 @media (max-width: 768px) {
     .section-content {
@@ -198,3 +209,16 @@ text-align: center;
 margin-bottom: 60px;
 margin-top: 18px;
 }
+
+.text-gradient__indigo-red {
+    padding-right: 0.05em;
+    background-image: linear-gradient(207deg,#ef4848 23%,#6366f1 87%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px){
+.section-content {
+    padding: 0 33px;
+}}
