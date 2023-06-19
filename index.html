@@ -16,6 +16,8 @@
     <link href='http://fonts.googleapis.com/css?family=Work%20Sans:400,500,700,900%7CPT%20Serif%7CRoboto:700'
         rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href='assets/style.css' />
+    <link rel="stylesheet" type="text/css" href='assets/css/custome.css' />
+
 
     <!--[if lt IE 9]>
                 <script src="assets/js/html5shiv.js"></script>            
@@ -23,198 +25,7 @@
         <![endif]-->
 </head>
 <style>
-    .header-holder {
-        z-index: 99 !important;
-        background-color: #000000;
-        width: 100% !important;
-        top: 0;
-        margin-top: -3px;
-        position: fixed;
-    }
-
-    .header-logo img {
-        width: 45px;
-        margin-top: 5px;
-        height: 100%;
-    }
-
-    .menu-holder {
-        float: right;
-        max-width: 80%;
-        margin-top: 10px;
-    }
-
-    body .site-wrapper .sm-clean a {
-        cursor: pointer;
-        color: #939393;
-        transition: color .3s ease;
-    }
-
-    body .sm-clean a:hover,
-    body .sm-clean li a.current {
-        color: #ffffff;
-    }
-
-    .menu-wrapper {
-        max-width: 98%;
-        width: 1170px;
-        min-height: 93px;
-    }
-
-    .header-holder {
-        z-index: 99 !important;
-        background-color: #000000;
-        width: 100% !important;
-        top: 0;
-        margin-top: -3px;
-    }
-
-    h1.page-title {
-        font-size: 35px;
-        line-height: 60px;
-        font-weight: 400;
-        text-align: center;
-        margin-bottom: 60px;
-        margin-top: 65px;
-    }
-
-    h1.page-title2 {
-        font-size: 35px;
-        line-height: 60px;
-        font-weight: 400;
-        text-align: center;
-        margin-bottom: 42px;
-        margin-top: -114px;
-    }
-
-
-
-    @media screen and (max-width: 925px) {
-        .toggle-holder {
-            display: flex;
-            margin-right: 20px;
-
-        }
-
-        h1.page-title {
-            font-size: 23px;
-            line-height: 40px;
-            margin-bottom: -51px;
-            padding-top: 0;
-            margin-top: 218px;
-        }
-
-        h1.page-title2 {
-            font-size: 30px;
-            line-height: 60px;
-            font-weight: 500;
-            line-height: 1.1;
-            text-align: center;
-            margin-bottom: 42px;
-            margin-top: 11px;
-        }
-
-        .menu-holder {
-            position: fixed;
-            text-align: center;
-            height: 100%;
-            background-color: #000000;
-            right: -100%;
-            top: 0;
-            transition: right .3s ease;
-            width: 100%;
-            overflow: auto;
-            max-width: 100%;
-            z-index: 99;
-        }
-
-        .toggle-holder.on {
-            background-color: #ffffff21;
-            padding: 10px;
-            border-radius: 90%;
-            width: 23px;
-            height: 23px;
-        }
-
-        .header-logo img {
-            width: 32px;
-            margin-top: 5px;
-            height: 100%;
-            margin-left: 20px;
-        }
-
-        .menu-wrapper {
-            max-width: 98%;
-            width: 1170px;
-            min-height: 70px;
-        }
-
-    }
-
-    #toggle div {
-        height: 3px;
-        margin-bottom: 6px;
-        background-color: #fff;
-        width: 22px;
-        transition: all .3s ease;
-        transition-delay: .1s;
-    }
-
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    .fade-in {
-        opacity: 0;
-        /* make things invisible upon start */
-        animation: fadeIn ease-in 1;
-        animation-fill-mode: forwards;
-        animation-duration: 1.5s;
-    }
-
-    @media (pointer: coarse) {
-        .section {
-            background-attachment: fixed !important;
-        }
-    }
-
-    .section {
-        background-image: url('assets/img/bg2.jpg');
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
-        text-align: left;
-        padding: 100px 0;
-    }
-
-    .section-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
-        color: #fff;
-    }
-
-    @media (max-width: 768px) {
-        .section-content {
-            padding: 0 10px;
-        }
-    }
-
-    .content-1170 {
-        width: 1170px;
-        max-width: 90%;
-    }
-
-    .content-650 {
-        width: 650px;
-        max-width: 88%;
-    }
+   
 </style>
 
 <body>
@@ -304,9 +115,9 @@
                         <br>
 
                         <p>
-                            Welcome to VectorCrop, a vibrant open source community dedicated to fostering collaboration
-                            and innovation. At VectorCrop, we believe in the power of open source software to transform
-                            the digital landscape and drive positive change.
+                          At VectorCrop, we are passionate about software development and dedicated to helping businesses and individuals bring their digital ideas to life. As a leading software development agency, we specialize in creating high-quality, innovative solutions tailored to our clients' unique needs.<br>
+ 
+Our team of experienced developers, designers, and project managers collaborate closely with our clients to understand their goals and deliver exceptional results. Whether you're looking for a mobile application, web development, or custom software solutions, we have the expertise and creativity to make it happen.
                         </p>
                     </div>
 
@@ -339,7 +150,7 @@
                         <div class="swiper-scrollbar swiper-scrollbar-slider"></div>
                     </div>
 
-                    <div class="nav-links">
+                    <!-- <div class="nav-links">
                         <div class="content-1170 center-relative">
                             <div class="nav-next">
                                 <a href="portfolio-6.html" rel="next">White Beard UX/UI Design</a>
@@ -347,8 +158,98 @@
                                 <div class="clear"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
+
+                <div id="content" class="site-content" style="background-color: #000000; color: #fff;">
+                    <div class="section-wrapper">
+                        <h1 class="entry-title page-title3 block content-1170 center-relative"> 
+                            Check out our modest <br> 
+                            list of <b>services</b>
+                        </h1> 
+    
+                        <!-- <img class="title-logo center-relative block" src="assets/images/divider_01.png" alt="" /> -->
+    
+                        <div class="content-wrapper block content-1170 center-relative">
+    
+                            <div class="one_third">
+                                <div class="service-item center-text relative">
+                                    <img class="service-icon" style="max-width: 35%;" src="assets/img/1.svg" width="50px" alt="" />
+                                    <h3 class="service-title">
+                                        Website Development
+                                    </h3>
+                                    <div class="service-content"> 
+                                        We’ll create a website to attract visitors, convert them into customers and encourage them to come back.                                    </div>                                   
+                                </div>                                
+                            </div>
+    
+                            <div class="one_third">
+                                <div class="service-item center-text relative">
+                                    <img class="service-icon" style="max-width: 35%;" src="assets/img/2.svg" width="50px" alt="" />
+                                    <h3 class="service-title">
+                                        Open Source Project Management
+                                    </h3>
+                                    <div class="service-content"> 
+                                        We'll help you create a breakthrough product or highly improve your open source projects.
+
+                                    </div>                                    
+                                </div>                                
+                            </div>
+    
+                            <div class="one_third last">
+                                <div class="service-item center-text relative">
+                                    <img class="service-icon" style="max-width: 35%;" src="assets/img/1.svg" width="50px" alt="" />
+                                    <h3 class="service-title">
+                                        Product/Contents Designing
+                                    </h3>
+                                    <div class="service-content"> 
+                                        We'll deliver To get advantages from content marketing you need to reaching an audience.                                    </div>                                    
+                                </div>                                
+                            </div>
+    
+                            <div class="clear"></div>
+    
+                            <div class="one_third">
+                                <div class="service-item center-text relative">
+                                    <img class="service-icon" style="max-width: 35%;" src="assets/img/1.svg" width="50px" alt="" />
+                                    <h3 class="service-title">
+                                        Application Development
+                                    </h3>
+                                    <div class="service-content"> 
+                                        We’ll create a App to attract visitors, convert them into customers and encourage them to come back.                                    </div>                                    
+                                </div>                                
+                            </div>
+    
+                            <div class="one_third">
+                                <div class="service-item center-text relative">
+                                    <img class="service-icon" style="max-width: 35%;" src="assets/img/1.svg" width="50px" alt="" />
+                                    <h3 class="service-title">
+                                        UI/UX Designing 
+                                    </h3>
+                                    <div class="service-content"> 
+                                        VectorCrop is the right place for you to explore and learn more about the ui/ux design.                                    </div>                                   
+                                </div>                                
+                            </div>
+    
+                            <div class="one_third last">
+                                <div class="service-item center-text relative">
+                                    <img class="service-icon" style="max-width: 35%;" src="assets/img/1.svg" width="50px" alt="" />
+                                    <h3 class="service-title">
+                                        Photography & Videography                                    </h3>
+                                    <div class="service-content"> 
+                                        We'll deliver To get advantages from content marketing you need to reaching an audience.                                    </div>                                    
+                                </div>                                
+                            </div>
+    
+                            <div class="clear"></div>
+                          
+                            <div class="swiper-pagination swiper-pagination-textSlider dots"></div>                            
+                        </div>                        
+                    </div>                    
+                </div>                
+    
+
+
 
                 <div class="full-page-width center-relative">
                     <div id="portfolio-wrapper">
